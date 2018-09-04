@@ -1,0 +1,39 @@
+{
+  "name": "crudApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.12",
+    "nodemon": "^1.18.4",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon ./server",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavman2/crudApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavman2/crudApp/issues"
+  },
+  "homepage": "https://github.com/bhavman2/crudApp#readme"
+}
